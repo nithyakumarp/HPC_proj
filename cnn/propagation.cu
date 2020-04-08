@@ -70,7 +70,7 @@ static double forward_propagation(double data[28][28])
 }
 
 // Back propagation to update weights
-static double back_propagation()
+static double backward_propagation()
 {
     clock_t start, end;
 
